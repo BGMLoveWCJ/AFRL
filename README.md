@@ -17,4 +17,5 @@ Some simulation samples:\
 Simulation description: The vehicle clients request media content from RSU(Blue lines in the samples), and the RSU check if the requested content is cached locally, when hit on the current RSU then the requested content will be provided by the current RSU(Red lines in the samples). The RSU will ask for help from the neighbour RSUs, if they cache the requested content, they will send it the the current RSU and provide the cache service. When the request misses both on the current RSU and its neighbours, the request will be relayed to the CDC, and the cache services will be provided by it(Pink lines in the samples).
 
 Some tmp results:\
-![rst1]()
+![rst1](https://github.com/BGMLoveWCJ/AFRL/blob/main/demo/rst1.png)
+![rst2](https://github.com/BGMLoveWCJ/AFRL/blob/main/demo/rst2.png)
