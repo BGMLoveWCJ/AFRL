@@ -16,13 +16,13 @@ Some simulation samples:\
 
 Simulation description: The vehicle clients request media content from RSU(Blue lines in the samples), and the RSU check if the requested content is cached locally, when hit on the current RSU then the requested content will be provided by the current RSU(Red lines in the samples). The RSU will ask for help from the neighbour RSUs, if they cache the requested content, they will send it the the current RSU and provide the cache service. When the request misses both on the current RSU and its neighbours, the request will be relayed to the CDC, and the cache services will be provided by it(Pink lines in the samples).
 
-Some tmp results:
-Random->10.2%(hit ratio)
-FRL->10.7%(hit ratio)
+Some tmp results:\
+Random->10.2%(hit ratio)\
+FRL->10.7%(hit ratio)\
 ![rst1](https://github.com/BGMLoveWCJ/AFRL/blob/main/demo/rst1.png)
 ![rst2](https://github.com/BGMLoveWCJ/AFRL/blob/main/demo/rst2.png)
 
-To do:
-[1] Try some better asynchronous aggregation function.
-[2] Consider stroger DRL algorithms like TD3 and Rainbow.
+To do:\
+[1] Try some better asynchronous aggregation function.\
+[2] Consider stroger DRL algorithms like TD3 and Rainbow.\
 [3] Consider enabling cooperation between RSUs(MADDPG/Global Critic and some worker actors).
