@@ -21,3 +21,8 @@ Random->10.2%(hit ratio)
 FRL->10.7%(hit ratio)
 ![rst1](https://github.com/BGMLoveWCJ/AFRL/blob/main/demo/rst1.png)
 ![rst2](https://github.com/BGMLoveWCJ/AFRL/blob/main/demo/rst2.png)
+
+To do:
+[1] Try some better asynchronous aggregation function.
+[2] Consider stroger DRL algorithms like TD3 and Rainbow.
+[3] Consider enabling cooperation between RSUs(MADDPG/Global Critic and some worker actors).
